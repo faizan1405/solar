@@ -22,9 +22,7 @@ export function Nav() {
     <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${scrolled ? "border-b border-border/60 bg-paper/75 backdrop-blur-xl" : "bg-transparent"}`}>
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:h-20">
         <a href="#" className="flex items-center gap-2 font-display text-lg font-black tracking-tight text-ink">
-          <span className="grid h-7 w-7 place-items-center rounded-full bg-sun">
-            <span className="h-2.5 w-2.5 rounded-full bg-ink" />
-          </span>
+          <img src="/favicon.png" alt="Suryavan Solar logo" className="h-8 w-8 rounded-lg object-cover shrink-0" />
           SURYAVAN
         </a>
         <ul className="hidden items-center gap-8 lg:flex">
